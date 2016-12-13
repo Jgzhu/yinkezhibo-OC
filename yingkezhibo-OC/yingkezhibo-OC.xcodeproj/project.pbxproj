@@ -7,14 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E290B581E002CBC0035A03D /* AMapFoundationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E290B561E002CBC0035A03D /* AMapFoundationKit.framework */; };
+		0E290B591E002CBC0035A03D /* AMapLocationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E290B571E002CBC0035A03D /* AMapLocationKit.framework */; };
+		0E290B5B1E002DC20035A03D /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E290B5A1E002DC20035A03D /* JavaScriptCore.framework */; };
+		0E290B5D1E002DCD0035A03D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E290B5C1E002DCD0035A03D /* SystemConfiguration.framework */; };
+		0E290B5F1E002DF00035A03D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E290B5E1E002DF00035A03D /* CoreTelephony.framework */; };
+		0E290B611E002E070035A03D /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E290B601E002E070035A03D /* libz.tbd */; };
+		0E290B631E002E170035A03D /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E290B621E002E170035A03D /* libc++.tbd */; };
+		0E290B651E002E260035A03D /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E290B641E002E260035A03D /* libstdc++.6.0.9.tbd */; };
+		0E290B671E002E440035A03D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E290B661E002E440035A03D /* Security.framework */; };
+		0E290B6C1E00313D0035A03D /* JGZLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E290B6B1E00313D0035A03D /* JGZLocationManager.m */; };
+		0E921E8D1DFFEFF9004A60EF /* JGZLiveController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E921E8C1DFFEFF9004A60EF /* JGZLiveController.m */; };
 		0EE062FE1DFD884500F244E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE062FD1DFD884500F244E9 /* main.m */; };
-		0EE063011DFD884500F244E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE063001DFD884500F244E9 /* AppDelegate.m */; };
-		0EE063041DFD884500F244E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE063031DFD884500F244E9 /* ViewController.m */; };
 		0EE063071DFD884500F244E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EE063051DFD884500F244E9 /* Main.storyboard */; };
 		0EE063091DFD884500F244E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EE063081DFD884500F244E9 /* Assets.xcassets */; };
 		0EE0630C1DFD884500F244E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EE0630A1DFD884500F244E9 /* LaunchScreen.storyboard */; };
 		0EE063171DFD884500F244E9 /* yingkezhibo_OCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE063161DFD884500F244E9 /* yingkezhibo_OCTests.m */; };
 		0EE063221DFD884500F244E9 /* yingkezhibo_OCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE063211DFD884500F244E9 /* yingkezhibo_OCUITests.m */; };
+		0EE063461DFD91F100F244E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE063401DFD91F100F244E9 /* AppDelegate.m */; };
+		0EE063491DFD929E00F244E9 /* JGZTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE063481DFD929E00F244E9 /* JGZTabBarController.m */; };
+		0EE0634D1DFD97A300F244E9 /* JGZBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE0634C1DFD97A300F244E9 /* JGZBaseViewController.m */; };
+		0EE063501DFD97C000F244E9 /* JGZShowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE0634F1DFD97C000F244E9 /* JGZShowController.m */; };
+		0EE063531DFD97D900F244E9 /* JGZMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE063521DFD97D900F244E9 /* JGZMeController.m */; };
+		0EE063561DFD981F00F244E9 /* JGZBaseNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE063551DFD981F00F244E9 /* JGZBaseNavController.m */; };
+		0EE063591DFD9A1600F244E9 /* JGZTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE063581DFD9A1600F244E9 /* JGZTabBar.m */; };
+		BEFAD7BA5A14ED3326F256FA /* libPods-yingkezhibo-OC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34AB3C16C2B5832EC14DBA93 /* libPods-yingkezhibo-OC.a */; };
+		E9946C339F58B8DDC48D80C1 /* libPods-yingkezhibo-OCUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 841CEF2F9CCC8F2E001D1226 /* libPods-yingkezhibo-OCUITests.a */; };
+		EAC70AB6615821F2ECEE89A3 /* libPods-yingkezhibo-OCTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD81DF7803549668AB23DDAB /* libPods-yingkezhibo-OCTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +54,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		007F20F5ACF1D005711AA152 /* Pods-yingkezhibo-OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yingkezhibo-OC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yingkezhibo-OC/Pods-yingkezhibo-OC.debug.xcconfig"; sourceTree = "<group>"; };
+		0E290B561E002CBC0035A03D /* AMapFoundationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapFoundationKit.framework; sourceTree = "<group>"; };
+		0E290B571E002CBC0035A03D /* AMapLocationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapLocationKit.framework; sourceTree = "<group>"; };
+		0E290B5A1E002DC20035A03D /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		0E290B5C1E002DCD0035A03D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0E290B5E1E002DF00035A03D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		0E290B601E002E070035A03D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		0E290B621E002E170035A03D /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		0E290B641E002E260035A03D /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		0E290B661E002E440035A03D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		0E290B6A1E00313D0035A03D /* JGZLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGZLocationManager.h; sourceTree = "<group>"; };
+		0E290B6B1E00313D0035A03D /* JGZLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGZLocationManager.m; sourceTree = "<group>"; };
+		0E921E8B1DFFEFF9004A60EF /* JGZLiveController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGZLiveController.h; sourceTree = "<group>"; };
+		0E921E8C1DFFEFF9004A60EF /* JGZLiveController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGZLiveController.m; sourceTree = "<group>"; };
 		0EE062F91DFD884500F244E9 /* yingkezhibo-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "yingkezhibo-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EE062FD1DFD884500F244E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0EE062FF1DFD884500F244E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		0EE063001DFD884500F244E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0EE063021DFD884500F244E9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0EE063031DFD884500F244E9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0EE063061DFD884500F244E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0EE063081DFD884500F244E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EE0630B1DFD884500F244E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +80,29 @@
 		0EE0631D1DFD884500F244E9 /* yingkezhibo-OCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "yingkezhibo-OCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EE063211DFD884500F244E9 /* yingkezhibo_OCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = yingkezhibo_OCUITests.m; sourceTree = "<group>"; };
 		0EE063231DFD884500F244E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EE0633F1DFD91F100F244E9 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0EE063401DFD91F100F244E9 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0EE063471DFD929E00F244E9 /* JGZTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGZTabBarController.h; sourceTree = "<group>"; };
+		0EE063481DFD929E00F244E9 /* JGZTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGZTabBarController.m; sourceTree = "<group>"; };
+		0EE0634A1DFD93BB00F244E9 /* yingkezhibo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = yingkezhibo.pch; sourceTree = "<group>"; };
+		0EE0634B1DFD97A300F244E9 /* JGZBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGZBaseViewController.h; sourceTree = "<group>"; };
+		0EE0634C1DFD97A300F244E9 /* JGZBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGZBaseViewController.m; sourceTree = "<group>"; };
+		0EE0634E1DFD97C000F244E9 /* JGZShowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGZShowController.h; sourceTree = "<group>"; };
+		0EE0634F1DFD97C000F244E9 /* JGZShowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGZShowController.m; sourceTree = "<group>"; };
+		0EE063511DFD97D900F244E9 /* JGZMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGZMeController.h; sourceTree = "<group>"; };
+		0EE063521DFD97D900F244E9 /* JGZMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGZMeController.m; sourceTree = "<group>"; };
+		0EE063541DFD981F00F244E9 /* JGZBaseNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGZBaseNavController.h; sourceTree = "<group>"; };
+		0EE063551DFD981F00F244E9 /* JGZBaseNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGZBaseNavController.m; sourceTree = "<group>"; };
+		0EE063571DFD9A1600F244E9 /* JGZTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGZTabBar.h; sourceTree = "<group>"; };
+		0EE063581DFD9A1600F244E9 /* JGZTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGZTabBar.m; sourceTree = "<group>"; };
+		16BB6D7944D906FC0CDC092E /* Pods-yingkezhibo-OCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yingkezhibo-OCTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yingkezhibo-OCTests/Pods-yingkezhibo-OCTests.debug.xcconfig"; sourceTree = "<group>"; };
+		34AB3C16C2B5832EC14DBA93 /* libPods-yingkezhibo-OC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-yingkezhibo-OC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		534DADE3A15EA506A61D6769 /* Pods-yingkezhibo-OCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yingkezhibo-OCTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-yingkezhibo-OCTests/Pods-yingkezhibo-OCTests.release.xcconfig"; sourceTree = "<group>"; };
+		841CEF2F9CCC8F2E001D1226 /* libPods-yingkezhibo-OCUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-yingkezhibo-OCUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CADD8753B2FCB79034B204C9 /* Pods-yingkezhibo-OCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yingkezhibo-OCUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yingkezhibo-OCUITests/Pods-yingkezhibo-OCUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D5301C26AFF8EF22CD72AB64 /* Pods-yingkezhibo-OCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yingkezhibo-OCUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-yingkezhibo-OCUITests/Pods-yingkezhibo-OCUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DD81DF7803549668AB23DDAB /* libPods-yingkezhibo-OCTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-yingkezhibo-OCTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE1D4E6436D4235163D38609 /* Pods-yingkezhibo-OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yingkezhibo-OC.release.xcconfig"; path = "Pods/Target Support Files/Pods-yingkezhibo-OC/Pods-yingkezhibo-OC.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +110,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E290B671E002E440035A03D /* Security.framework in Frameworks */,
+				0E290B651E002E260035A03D /* libstdc++.6.0.9.tbd in Frameworks */,
+				0E290B631E002E170035A03D /* libc++.tbd in Frameworks */,
+				0E290B611E002E070035A03D /* libz.tbd in Frameworks */,
+				0E290B5F1E002DF00035A03D /* CoreTelephony.framework in Frameworks */,
+				0E290B5D1E002DCD0035A03D /* SystemConfiguration.framework in Frameworks */,
+				0E290B5B1E002DC20035A03D /* JavaScriptCore.framework in Frameworks */,
+				0E290B591E002CBC0035A03D /* AMapLocationKit.framework in Frameworks */,
+				BEFAD7BA5A14ED3326F256FA /* libPods-yingkezhibo-OC.a in Frameworks */,
+				0E290B581E002CBC0035A03D /* AMapFoundationKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAC70AB6615821F2ECEE89A3 /* libPods-yingkezhibo-OCTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +135,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9946C339F58B8DDC48D80C1 /* libPods-yingkezhibo-OCUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E290B551E002CA90035A03D /* GaodeMap */ = {
+			isa = PBXGroup;
+			children = (
+				0E290B561E002CBC0035A03D /* AMapFoundationKit.framework */,
+				0E290B571E002CBC0035A03D /* AMapLocationKit.framework */,
+			);
+			path = GaodeMap;
+			sourceTree = "<group>";
+		};
+		0E290B681E00311C0035A03D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		0E290B691E00311C0035A03D /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				0E290B6A1E00313D0035A03D /* JGZLocationManager.h */,
+				0E290B6B1E00313D0035A03D /* JGZLocationManager.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
 		0EE062F01DFD884500F244E9 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +174,8 @@
 				0EE063151DFD884500F244E9 /* yingkezhibo-OCTests */,
 				0EE063201DFD884500F244E9 /* yingkezhibo-OCUITests */,
 				0EE062FA1DFD884500F244E9 /* Products */,
+				E56FF1AA5482FD67C27209DC /* Pods */,
+				AC4DC8FE3E7117866D39DC0E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +192,7 @@
 		0EE062FB1DFD884500F244E9 /* yingkezhibo-OC */ = {
 			isa = PBXGroup;
 			children = (
-				0EE062FF1DFD884500F244E9 /* AppDelegate.h */,
-				0EE063001DFD884500F244E9 /* AppDelegate.m */,
-				0EE063021DFD884500F244E9 /* ViewController.h */,
-				0EE063031DFD884500F244E9 /* ViewController.m */,
-				0EE063051DFD884500F244E9 /* Main.storyboard */,
-				0EE063081DFD884500F244E9 /* Assets.xcassets */,
-				0EE0630A1DFD884500F244E9 /* LaunchScreen.storyboard */,
-				0EE0630D1DFD884500F244E9 /* Info.plist */,
+				0EE0632F1DFD91F100F244E9 /* Class */,
 				0EE062FC1DFD884500F244E9 /* Supporting Files */,
 			);
 			path = "yingkezhibo-OC";
@@ -117,7 +201,12 @@
 		0EE062FC1DFD884500F244E9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0EE063051DFD884500F244E9 /* Main.storyboard */,
+				0EE063081DFD884500F244E9 /* Assets.xcassets */,
+				0EE0630A1DFD884500F244E9 /* LaunchScreen.storyboard */,
+				0EE0630D1DFD884500F244E9 /* Info.plist */,
 				0EE062FD1DFD884500F244E9 /* main.m */,
+				0EE0634A1DFD93BB00F244E9 /* yingkezhibo.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +229,222 @@
 			path = "yingkezhibo-OCUITests";
 			sourceTree = "<group>";
 		};
+		0EE0632F1DFD91F100F244E9 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				0EE063301DFD91F100F244E9 /* Base */,
+				0EE063311DFD91F100F244E9 /* Helper */,
+				0EE063321DFD91F100F244E9 /* Lib */,
+				0EE063331DFD91F100F244E9 /* Live */,
+				0EE063381DFD91F100F244E9 /* Me */,
+				0EE0633D1DFD91F100F244E9 /* NetWork */,
+				0EE0633E1DFD91F100F244E9 /* Other */,
+				0EE063411DFD91F100F244E9 /* Show */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		0EE063301DFD91F100F244E9 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0EE063471DFD929E00F244E9 /* JGZTabBarController.h */,
+				0EE063481DFD929E00F244E9 /* JGZTabBarController.m */,
+				0EE063571DFD9A1600F244E9 /* JGZTabBar.h */,
+				0EE063581DFD9A1600F244E9 /* JGZTabBar.m */,
+				0EE0634B1DFD97A300F244E9 /* JGZBaseViewController.h */,
+				0EE0634C1DFD97A300F244E9 /* JGZBaseViewController.m */,
+				0EE063541DFD981F00F244E9 /* JGZBaseNavController.h */,
+				0EE063551DFD981F00F244E9 /* JGZBaseNavController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		0EE063311DFD91F100F244E9 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				0E290B681E00311C0035A03D /* Category */,
+				0E290B691E00311C0035A03D /* Tool */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		0EE063321DFD91F100F244E9 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				0E290B551E002CA90035A03D /* GaodeMap */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		0EE063331DFD91F100F244E9 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				0EE063341DFD91F100F244E9 /* Handler */,
+				0EE063351DFD91F100F244E9 /* Model */,
+				0EE063361DFD91F100F244E9 /* View */,
+				0EE063371DFD91F100F244E9 /* ViewController */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		0EE063341DFD91F100F244E9 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		0EE063351DFD91F100F244E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0EE063361DFD91F100F244E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0EE063371DFD91F100F244E9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0E921E8B1DFFEFF9004A60EF /* JGZLiveController.h */,
+				0E921E8C1DFFEFF9004A60EF /* JGZLiveController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0EE063381DFD91F100F244E9 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				0EE063391DFD91F100F244E9 /* Handler */,
+				0EE0633A1DFD91F100F244E9 /* Model */,
+				0EE0633B1DFD91F100F244E9 /* View */,
+				0EE0633C1DFD91F100F244E9 /* ViewController */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		0EE063391DFD91F100F244E9 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		0EE0633A1DFD91F100F244E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0EE0633B1DFD91F100F244E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0EE0633C1DFD91F100F244E9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0EE063511DFD97D900F244E9 /* JGZMeController.h */,
+				0EE063521DFD97D900F244E9 /* JGZMeController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0EE0633D1DFD91F100F244E9 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		0EE0633E1DFD91F100F244E9 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				0EE0633F1DFD91F100F244E9 /* AppDelegate.h */,
+				0EE063401DFD91F100F244E9 /* AppDelegate.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		0EE063411DFD91F100F244E9 /* Show */ = {
+			isa = PBXGroup;
+			children = (
+				0EE063421DFD91F100F244E9 /* Handler */,
+				0EE063431DFD91F100F244E9 /* Model */,
+				0EE063441DFD91F100F244E9 /* View */,
+				0EE063451DFD91F100F244E9 /* ViewController */,
+			);
+			path = Show;
+			sourceTree = "<group>";
+		};
+		0EE063421DFD91F100F244E9 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		0EE063431DFD91F100F244E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0EE063441DFD91F100F244E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0EE063451DFD91F100F244E9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0EE0634E1DFD97C000F244E9 /* JGZShowController.h */,
+				0EE0634F1DFD97C000F244E9 /* JGZShowController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		AC4DC8FE3E7117866D39DC0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E290B661E002E440035A03D /* Security.framework */,
+				0E290B641E002E260035A03D /* libstdc++.6.0.9.tbd */,
+				0E290B621E002E170035A03D /* libc++.tbd */,
+				0E290B601E002E070035A03D /* libz.tbd */,
+				0E290B5E1E002DF00035A03D /* CoreTelephony.framework */,
+				0E290B5C1E002DCD0035A03D /* SystemConfiguration.framework */,
+				0E290B5A1E002DC20035A03D /* JavaScriptCore.framework */,
+				34AB3C16C2B5832EC14DBA93 /* libPods-yingkezhibo-OC.a */,
+				DD81DF7803549668AB23DDAB /* libPods-yingkezhibo-OCTests.a */,
+				841CEF2F9CCC8F2E001D1226 /* libPods-yingkezhibo-OCUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E56FF1AA5482FD67C27209DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				007F20F5ACF1D005711AA152 /* Pods-yingkezhibo-OC.debug.xcconfig */,
+				DE1D4E6436D4235163D38609 /* Pods-yingkezhibo-OC.release.xcconfig */,
+				16BB6D7944D906FC0CDC092E /* Pods-yingkezhibo-OCTests.debug.xcconfig */,
+				534DADE3A15EA506A61D6769 /* Pods-yingkezhibo-OCTests.release.xcconfig */,
+				CADD8753B2FCB79034B204C9 /* Pods-yingkezhibo-OCUITests.debug.xcconfig */,
+				D5301C26AFF8EF22CD72AB64 /* Pods-yingkezhibo-OCUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +452,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0EE063261DFD884500F244E9 /* Build configuration list for PBXNativeTarget "yingkezhibo-OC" */;
 			buildPhases = (
+				9929CB5412EAA77E147DD93D /* [CP] Check Pods Manifest.lock */,
 				0EE062F51DFD884500F244E9 /* Sources */,
 				0EE062F61DFD884500F244E9 /* Frameworks */,
 				0EE062F71DFD884500F244E9 /* Resources */,
+				CF1FA23F369C3B5A30BC439D /* [CP] Embed Pods Frameworks */,
+				E6A04C7BB278787F65B4E88D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +472,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0EE063291DFD884500F244E9 /* Build configuration list for PBXNativeTarget "yingkezhibo-OCTests" */;
 			buildPhases = (
+				13B882BAEDAE8C6B3C52FE9A /* [CP] Check Pods Manifest.lock */,
 				0EE0630E1DFD884500F244E9 /* Sources */,
 				0EE0630F1DFD884500F244E9 /* Frameworks */,
 				0EE063101DFD884500F244E9 /* Resources */,
+				39D84B5956B806510B46D5FC /* [CP] Embed Pods Frameworks */,
+				E0D418DFD230761091414B1B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +493,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0EE0632C1DFD884500F244E9 /* Build configuration list for PBXNativeTarget "yingkezhibo-OCUITests" */;
 			buildPhases = (
+				883587F935F05318EC2123F0 /* [CP] Check Pods Manifest.lock */,
 				0EE063191DFD884500F244E9 /* Sources */,
 				0EE0631A1DFD884500F244E9 /* Frameworks */,
 				0EE0631B1DFD884500F244E9 /* Resources */,
+				6844BA613AA4D2A74CA728FF /* [CP] Embed Pods Frameworks */,
+				E1C8ABACBE371006F7DBD3A3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,11 +516,13 @@
 		0EE062F11DFD884500F244E9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = JGZ;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "江贵铸";
 				TargetAttributes = {
 					0EE062F81DFD884500F244E9 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5UJE4L3862;
 						ProvisioningStyle = Automatic;
 					};
 					0EE063111DFD884500F244E9 = {
@@ -268,14 +584,159 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13B882BAEDAE8C6B3C52FE9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		39D84B5956B806510B46D5FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yingkezhibo-OCTests/Pods-yingkezhibo-OCTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6844BA613AA4D2A74CA728FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yingkezhibo-OCUITests/Pods-yingkezhibo-OCUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		883587F935F05318EC2123F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9929CB5412EAA77E147DD93D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CF1FA23F369C3B5A30BC439D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yingkezhibo-OC/Pods-yingkezhibo-OC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0D418DFD230761091414B1B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yingkezhibo-OCTests/Pods-yingkezhibo-OCTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1C8ABACBE371006F7DBD3A3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yingkezhibo-OCUITests/Pods-yingkezhibo-OCUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6A04C7BB278787F65B4E88D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yingkezhibo-OC/Pods-yingkezhibo-OC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0EE062F51DFD884500F244E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EE063041DFD884500F244E9 /* ViewController.m in Sources */,
-				0EE063011DFD884500F244E9 /* AppDelegate.m in Sources */,
+				0EE063461DFD91F100F244E9 /* AppDelegate.m in Sources */,
+				0EE063501DFD97C000F244E9 /* JGZShowController.m in Sources */,
+				0EE063491DFD929E00F244E9 /* JGZTabBarController.m in Sources */,
+				0EE063531DFD97D900F244E9 /* JGZMeController.m in Sources */,
 				0EE062FE1DFD884500F244E9 /* main.m in Sources */,
+				0EE063591DFD9A1600F244E9 /* JGZTabBar.m in Sources */,
+				0E290B6C1E00313D0035A03D /* JGZLocationManager.m in Sources */,
+				0EE0634D1DFD97A300F244E9 /* JGZBaseViewController.m in Sources */,
+				0EE063561DFD981F00F244E9 /* JGZBaseNavController.m in Sources */,
+				0E921E8D1DFFEFF9004A60EF /* JGZLiveController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,9 +883,18 @@
 		};
 		0EE063271DFD884500F244E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 007F20F5ACF1D005711AA152 /* Pods-yingkezhibo-OC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5UJE4L3862;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/yingkezhibo-OC/Class/Lib/GaodeMap",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/yingkezhibo-OC/yingkezhibo.pch";
 				INFOPLIST_FILE = "yingkezhibo-OC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jgzhu.yingkezhibo-OC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -433,9 +903,18 @@
 		};
 		0EE063281DFD884500F244E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE1D4E6436D4235163D38609 /* Pods-yingkezhibo-OC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5UJE4L3862;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/yingkezhibo-OC/Class/Lib/GaodeMap",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/yingkezhibo-OC/yingkezhibo.pch";
 				INFOPLIST_FILE = "yingkezhibo-OC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jgzhu.yingkezhibo-OC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,6 +923,7 @@
 		};
 		0EE0632A1DFD884500F244E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16BB6D7944D906FC0CDC092E /* Pods-yingkezhibo-OCTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "yingkezhibo-OCTests/Info.plist";
@@ -456,6 +936,7 @@
 		};
 		0EE0632B1DFD884500F244E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 534DADE3A15EA506A61D6769 /* Pods-yingkezhibo-OCTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "yingkezhibo-OCTests/Info.plist";
@@ -468,6 +949,7 @@
 		};
 		0EE0632D1DFD884500F244E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CADD8753B2FCB79034B204C9 /* Pods-yingkezhibo-OCUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "yingkezhibo-OCUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -479,6 +961,7 @@
 		};
 		0EE0632E1DFD884500F244E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5301C26AFF8EF22CD72AB64 /* Pods-yingkezhibo-OCUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "yingkezhibo-OCUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -507,6 +990,7 @@
 				0EE063281DFD884500F244E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0EE063291DFD884500F244E9 /* Build configuration list for PBXNativeTarget "yingkezhibo-OCTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +999,7 @@
 				0EE0632B1DFD884500F244E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0EE0632C1DFD884500F244E9 /* Build configuration list for PBXNativeTarget "yingkezhibo-OCUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +1008,7 @@
 				0EE0632E1DFD884500F244E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
