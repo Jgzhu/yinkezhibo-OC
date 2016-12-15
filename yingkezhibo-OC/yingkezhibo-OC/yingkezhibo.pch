@@ -8,7 +8,7 @@
 
 #ifndef yingkezhibo_pch
 #define yingkezhibo_pch
-
+#import "YYKit.h"
 #define UIScreenW [UIScreen mainScreen].bounds.size.width
 #define UIScreenH [UIScreen mainScreen].bounds.size.height
 #define UIScreenBounds [UIScreen mainScreen].bounds

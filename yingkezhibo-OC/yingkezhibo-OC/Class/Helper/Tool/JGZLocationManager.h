@@ -7,12 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <AMapFoundationKit/AMapFoundationKit.h>
+#import <AMapLocationKit/AMapLocationKit.h>
 
+typedef void (^LocationBlock)(CLLocation *location, AMapLocationReGeocode *regeocode);
 @interface JGZLocationManager : NSObject
 +(instancetype)shareManager;
--(void)UpdateLocation;
+-(void)UpdateLocationOnce:(LocationBlock)block;
+-(void)UpdateLocationAlways:(LocationBlock)block;
+-(void)StopLocation;
+@property (nonatomic,copy) CLLocation *location;//!< 定位坐标
 @property (nonatomic, copy) NSString *formattedAddress;//!< 格式化地址
-
 @property (nonatomic, copy) NSString *country;  //!< 国家
 @property (nonatomic, copy) NSString *province; //!< 省/直辖市
 @property (nonatomic, copy) NSString *city;     //!< 市

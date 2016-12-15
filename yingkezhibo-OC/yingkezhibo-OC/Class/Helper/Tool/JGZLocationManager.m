@@ -7,11 +7,11 @@
 //
 
 #import "JGZLocationManager.h"
-#import <AMapFoundationKit/AMapFoundationKit.h>
-#import <AMapLocationKit/AMapLocationKit.h>
 
-@interface JGZLocationManager ()
+
+@interface JGZLocationManager ()<AMapLocationManagerDelegate>
 @property (nonatomic,strong) AMapLocationManager *LocationManager;
+@property (nonatomic,copy) LocationBlock block;
 @end
 @implementation JGZLocationManager
 +(instancetype)shareManager{
@@ -25,21 +25,21 @@
 -(instancetype)init{
     self=[super init];
     if (self) {
-       
+        [AMapServices sharedServices].apiKey =@"1a96400576a43d75d8d45fb7af48c1c5";
+        [AMapServices sharedServices].enableHTTPS = YES;
+        self.LocationManager = [[AMapLocationManager alloc] init];
+        // 带逆地理信息的一次定位（返回坐标和地址信息）
+        [self.LocationManager setDesiredAccuracy:kCLLocationAccuracyHundredMeters];
+        //   定位超时时间，最低2s，此处设置为2s
+        self.LocationManager.locationTimeout =2;
+        //   逆地理请求超时时间，最低2s，此处设置为2s
+        self.LocationManager.reGeocodeTimeout = 2;
+        [self updatelocation];
+  
     }
     return self;
 }
--(void)UpdateLocation{
-    
-    [AMapServices sharedServices].apiKey =@"1a96400576a43d75d8d45fb7af48c1c5";
-    self.LocationManager = [[AMapLocationManager alloc] init];
-    // 带逆地理信息的一次定位（返回坐标和地址信息）
-    [self.LocationManager setDesiredAccuracy:kCLLocationAccuracyNearestTenMeters];
-    //   定位超时时间，最低2s，此处设置为2s
-    self.LocationManager.locationTimeout =2;
-    //   逆地理请求超时时间，最低2s，此处设置为2s
-    self.LocationManager.reGeocodeTimeout = 2;
-    
+-(void)updatelocation{
     // 带逆地理（返回坐标和地址信息）。将下面代码中的 YES 改成 NO ，则不会返回地址信息。
     [self.LocationManager requestLocationWithReGeocode:YES completionBlock:^(CLLocation *location, AMapLocationReGeocode *regeocode, NSError *error) {
         
@@ -57,20 +57,8 @@
         
         if (regeocode)
         {
-           // NSLog(@"reGeocode:%@", regeocode);
-            /**
-             formattedAddress;//!< 格式化地址
-             country;  //!< 国家
-             province; //!< 省/直辖市
-             city;     //!< 市
-             district; //!< 区
-             citycode; //!< 城市编码
-             adcode;   //!< 区域编码
-             street;   //!< 街道名称
-             number;   //!< 门牌号
-             POIName;  //!< 兴趣点名称
-             AOIName;  //!< 所属兴趣点名称
-             */
+            // NSLog(@"reGeocode:%@", regeocode);
+            self.location =location;
             self.formattedAddress = regeocode.formattedAddress;
             self.country = regeocode.country;
             self.province = regeocode.province;
@@ -82,9 +70,47 @@
             self.number = regeocode.number;
             self.POIName = regeocode.POIName;
             self.AOIName = regeocode.AOIName;
+            if (self.block) {
+                self.block(location,regeocode);
+            }
+            
         }
     }];
 
+}
+#pragma mark--单次定位
 
+-(void)UpdateLocationOnce:(LocationBlock)block{
+    self.block = block;
+    [self updatelocation];
+   }
+#pragma mark--开始持续定位
+-(void)UpdateLocationAlways:(LocationBlock)block{
+    self.block = block;
+    self.LocationManager.delegate = self;
+    [self.LocationManager setLocatingWithReGeocode:YES];
+    [self.LocationManager startUpdatingLocation];
+
+}
+#pragma mark--停止持续定位
+-(void)StopLocation{
+
+    [self.LocationManager stopUpdatingLocation];
+    
+}
+//- (void)amapLocationManager:(AMapLocationManager *)manager didUpdateLocation:(CLLocation *)location
+//{
+//    NSLog(@"location:{lat:%f; lon:%f; accuracy:%f}", location.coordinate.latitude, location.coordinate.longitude, location.horizontalAccuracy);
+//}
+- (void)amapLocationManager:(AMapLocationManager *)manager didUpdateLocation:(CLLocation *)location reGeocode:(AMapLocationReGeocode *)reGeocode
+{
+    //NSLog(@"location:{lat:%f; lon:%f; accuracy:%f}", location.coordinate.latitude, location.coordinate.longitude, location.horizontalAccuracy);
+    if (reGeocode)
+    {
+        //NSLog(@"reGeocode:%@", reGeocode);
+        if (self.block) {
+            self.block(location,reGeocode);
+        }
+    }
 }
 @end

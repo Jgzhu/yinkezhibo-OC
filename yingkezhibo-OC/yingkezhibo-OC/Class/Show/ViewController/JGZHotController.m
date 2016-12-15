@@ -1,23 +1,23 @@
 //
-//  JGZBaseNavController.m
+//  JGZHotController.m
 //  yingkezhibo-OC
 //
-//  Created by 江贵铸 on 2016/12/11.
+//  Created by 江贵铸 on 2016/12/14.
 //  Copyright © 2016年 江贵铸. All rights reserved.
 //
 
-#import "JGZBaseNavController.h"
+#import "JGZHotController.h"
 
-@interface JGZBaseNavController ()
+@interface JGZHotController ()
 
 @end
 
-@implementation JGZBaseNavController
+@implementation JGZHotController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self.navigationBar setBackgroundImage:[UIImage imageNamed:@"global_tittle_bg"] forBarMetrics:UIBarMetricsDefault];
-    
+    self.view.backgroundColor = [UIColor yellowColor];
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {

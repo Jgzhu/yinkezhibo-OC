@@ -31,11 +31,8 @@
     self.jgzTabBar.frame = self.tabBar.frame;
     [self.view addSubview:self.jgzTabBar];
     [self.tabBar removeFromSuperview];
-    [self SetCurrentLocation];
 }
--(void)SetCurrentLocation{
-    [[JGZLocationManager shareManager] UpdateLocation];
-}
+
 -(void)initUI{
     JGZShowController *ShowController = [[JGZShowController alloc] init];
     ShowController.tabBarItem.title=@"";

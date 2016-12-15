@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JGZBaseViewController : UITabBarController
+@interface JGZBaseViewController : UIViewController
 
 @end

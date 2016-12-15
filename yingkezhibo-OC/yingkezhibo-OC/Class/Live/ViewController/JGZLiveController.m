@@ -9,7 +9,7 @@
 #import "JGZLiveController.h"
 #import "JGZLocationManager.h"
 @interface JGZLiveController ()
-
+@property (nonatomic,strong) UIButton *LocationBtn;
 @end
 
 @implementation JGZLiveController
@@ -18,6 +18,7 @@
     [super viewDidLoad];
     [self setBgViewImage];
     [self setAllSubViews];
+    // NSLog(@"%@",[JGZLocationManager shareManager].location);
     }
 -(void)setBgViewImage{
     self.view.backgroundColor = [UIColor cyanColor];
@@ -35,14 +36,23 @@
     [backBtn addTarget:self action:@selector(backBtnClick) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:backBtn];
     
-    UIButton *LacationBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    [LacationBtn setImage:[UIImage imageNamed:@"launch_map_on"] forState:UIControlStateNormal];
-    [LacationBtn setTitle:[JGZLocationManager shareManager].city forState:UIControlStateNormal];
-    [LacationBtn.titleLabel setFont:[UIFont systemFontOfSize:13]];
-    [LacationBtn sizeToFit];
-    LacationBtn.center = CGPointMake(10+LacationBtn.frame.size.width*0.5, backBtn.center.y);
-    [LacationBtn addTarget:self action:@selector(LacationBtnClick) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:LacationBtn];
+    UIButton *LocationBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    self.LocationBtn=LocationBtn;
+    [LocationBtn setImage:[UIImage imageNamed:@"launch_map_on"] forState:UIControlStateNormal];
+    [self.LocationBtn setTitle:[JGZLocationManager shareManager].city forState:UIControlStateNormal];
+    [self.LocationBtn.titleLabel setFont:[UIFont systemFontOfSize:13]];
+    [self.LocationBtn sizeToFit];
+    self.LocationBtn.center = CGPointMake(10+self.LocationBtn.frame.size.width*0.5, backBtn.center.y);
+    [self.LocationBtn addTarget:self action:@selector(LacationBtnClick) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:self.LocationBtn];
+//    __weak typeof(self) weakSelf = self;
+//    [[JGZLocationManager shareManager] UpdateLocationOnce:^(CLLocation *location, AMapLocationReGeocode *regeocode) {
+//        [weakSelf.LocationBtn setTitle:[JGZLocationManager shareManager].city forState:UIControlStateNormal];
+//        [weakSelf.LocationBtn sizeToFit];
+//        weakSelf.LocationBtn.center = CGPointMake(10+self.LocationBtn.frame.size.width*0.5, backBtn.center.y);
+//        
+//    }];
+    
     
     UIButton *startBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     [startBtn setBackgroundImage:[UIImage imageNamed:@"room_button"] forState:UIControlStateNormal];

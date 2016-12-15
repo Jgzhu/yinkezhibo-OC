@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "JGZTabBarController.h"
+#import "JGZLocationManager.h"
 @interface AppDelegate ()
 
 @end
@@ -16,6 +17,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    //定位
+   // [JGZLocationManager shareManager];
     UIWindow *window = [[UIWindow alloc] initWithFrame:UIScreenBounds];
     self.window = window;
     JGZTabBarController *TabBarController = [[JGZTabBarController alloc] init];

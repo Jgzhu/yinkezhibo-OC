@@ -17,7 +17,12 @@
 		0E290B651E002E260035A03D /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E290B641E002E260035A03D /* libstdc++.6.0.9.tbd */; };
 		0E290B671E002E440035A03D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E290B661E002E440035A03D /* Security.framework */; };
 		0E290B6C1E00313D0035A03D /* JGZLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E290B6B1E00313D0035A03D /* JGZLocationManager.m */; };
+		0E7EA5B91E016B5100FB384B /* TitleBgIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E7EA5B81E016B5100FB384B /* TitleBgIcon.png */; };
+		0E7EA5BC1E01831700FB384B /* JGZFocuseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7EA5BB1E01831700FB384B /* JGZFocuseController.m */; };
+		0E7EA5BF1E01833D00FB384B /* JGZHotController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7EA5BE1E01833D00FB384B /* JGZHotController.m */; };
+		0E7EA5C21E01836500FB384B /* JGZNearController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7EA5C11E01836500FB384B /* JGZNearController.m */; };
 		0E921E8D1DFFEFF9004A60EF /* JGZLiveController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E921E8C1DFFEFF9004A60EF /* JGZLiveController.m */; };
+		0ECDC6F21E01266B00A9E6F6 /* JGZScrollTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECDC6F11E01266B00A9E6F6 /* JGZScrollTabBarController.m */; };
 		0EE062FE1DFD884500F244E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE062FD1DFD884500F244E9 /* main.m */; };
 		0EE063071DFD884500F244E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EE063051DFD884500F244E9 /* Main.storyboard */; };
 		0EE063091DFD884500F244E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EE063081DFD884500F244E9 /* Assets.xcassets */; };
@@ -66,8 +71,17 @@
 		0E290B661E002E440035A03D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		0E290B6A1E00313D0035A03D /* JGZLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGZLocationManager.h; sourceTree = "<group>"; };
 		0E290B6B1E00313D0035A03D /* JGZLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGZLocationManager.m; sourceTree = "<group>"; };
+		0E7EA5B81E016B5100FB384B /* TitleBgIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TitleBgIcon.png; sourceTree = "<group>"; };
+		0E7EA5BA1E01831700FB384B /* JGZFocuseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGZFocuseController.h; sourceTree = "<group>"; };
+		0E7EA5BB1E01831700FB384B /* JGZFocuseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGZFocuseController.m; sourceTree = "<group>"; };
+		0E7EA5BD1E01833D00FB384B /* JGZHotController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGZHotController.h; sourceTree = "<group>"; };
+		0E7EA5BE1E01833D00FB384B /* JGZHotController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGZHotController.m; sourceTree = "<group>"; };
+		0E7EA5C01E01836500FB384B /* JGZNearController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGZNearController.h; sourceTree = "<group>"; };
+		0E7EA5C11E01836500FB384B /* JGZNearController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGZNearController.m; sourceTree = "<group>"; };
 		0E921E8B1DFFEFF9004A60EF /* JGZLiveController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGZLiveController.h; sourceTree = "<group>"; };
 		0E921E8C1DFFEFF9004A60EF /* JGZLiveController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGZLiveController.m; sourceTree = "<group>"; };
+		0ECDC6F01E01266B00A9E6F6 /* JGZScrollTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGZScrollTabBarController.h; sourceTree = "<group>"; };
+		0ECDC6F11E01266B00A9E6F6 /* JGZScrollTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGZScrollTabBarController.m; sourceTree = "<group>"; };
 		0EE062F91DFD884500F244E9 /* yingkezhibo-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "yingkezhibo-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EE062FD1DFD884500F244E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0EE063061DFD884500F244E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -165,6 +179,16 @@
 				0E290B6B1E00313D0035A03D /* JGZLocationManager.m */,
 			);
 			path = Tool;
+			sourceTree = "<group>";
+		};
+		0ECDC6EC1E011B8600A9E6F6 /* ScrollTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				0E7EA5B81E016B5100FB384B /* TitleBgIcon.png */,
+				0ECDC6F01E01266B00A9E6F6 /* JGZScrollTabBarController.h */,
+				0ECDC6F11E01266B00A9E6F6 /* JGZScrollTabBarController.m */,
+			);
+			path = ScrollTabBar;
 			sourceTree = "<group>";
 		};
 		0EE062F01DFD884500F244E9 = {
@@ -271,6 +295,7 @@
 		0EE063321DFD91F100F244E9 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				0ECDC6EC1E011B8600A9E6F6 /* ScrollTabBar */,
 				0E290B551E002CA90035A03D /* GaodeMap */,
 			);
 			path = Lib;
@@ -411,6 +436,12 @@
 			children = (
 				0EE0634E1DFD97C000F244E9 /* JGZShowController.h */,
 				0EE0634F1DFD97C000F244E9 /* JGZShowController.m */,
+				0E7EA5BA1E01831700FB384B /* JGZFocuseController.h */,
+				0E7EA5BB1E01831700FB384B /* JGZFocuseController.m */,
+				0E7EA5BD1E01833D00FB384B /* JGZHotController.h */,
+				0E7EA5BE1E01833D00FB384B /* JGZHotController.m */,
+				0E7EA5C01E01836500FB384B /* JGZNearController.h */,
+				0E7EA5C11E01836500FB384B /* JGZNearController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -564,6 +595,7 @@
 			files = (
 				0EE0630C1DFD884500F244E9 /* LaunchScreen.storyboard in Resources */,
 				0EE063091DFD884500F244E9 /* Assets.xcassets in Resources */,
+				0E7EA5B91E016B5100FB384B /* TitleBgIcon.png in Resources */,
 				0EE063071DFD884500F244E9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -727,13 +759,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E7EA5BC1E01831700FB384B /* JGZFocuseController.m in Sources */,
+				0E7EA5C21E01836500FB384B /* JGZNearController.m in Sources */,
 				0EE063461DFD91F100F244E9 /* AppDelegate.m in Sources */,
 				0EE063501DFD97C000F244E9 /* JGZShowController.m in Sources */,
 				0EE063491DFD929E00F244E9 /* JGZTabBarController.m in Sources */,
 				0EE063531DFD97D900F244E9 /* JGZMeController.m in Sources */,
 				0EE062FE1DFD884500F244E9 /* main.m in Sources */,
 				0EE063591DFD9A1600F244E9 /* JGZTabBar.m in Sources */,
+				0E7EA5BF1E01833D00FB384B /* JGZHotController.m in Sources */,
 				0E290B6C1E00313D0035A03D /* JGZLocationManager.m in Sources */,
+				0ECDC6F21E01266B00A9E6F6 /* JGZScrollTabBarController.m in Sources */,
 				0EE0634D1DFD97A300F244E9 /* JGZBaseViewController.m in Sources */,
 				0EE063561DFD981F00F244E9 /* JGZBaseNavController.m in Sources */,
 				0E921E8D1DFFEFF9004A60EF /* JGZLiveController.m in Sources */,
@@ -886,6 +922,7 @@
 			baseConfigurationReference = 007F20F5ACF1D005711AA152 /* Pods-yingkezhibo-OC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 5UJE4L3862;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -906,6 +943,7 @@
 			baseConfigurationReference = DE1D4E6436D4235163D38609 /* Pods-yingkezhibo-OC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 5UJE4L3862;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
